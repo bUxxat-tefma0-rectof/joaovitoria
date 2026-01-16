@@ -1,46 +1,19 @@
 # E-commerce Project
 
-This is a comprehensive structure for an E-commerce project that includes frontend, admin, and backend components.
+## Project Architecture
 
-## Project Structure
+This document outlines the architecture of the E-commerce project, including the various components and their interactions. 
 
-```
-joaovitoria/
-├── frontend/   # React App
-│   ├── public/
-│   │   ├── index.html
-│   │   ├── favicon.ico
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Header.js
-│   │   │   ├── ProductList.js
-│   │   │   ├── Cart.js
-│   │   ├── App.js
-│   │   └── index.js
-│   ├── package.json
-│   └── README.md
-├── admin/      # Vue.js Admin
-│   ├── public/
-│   │   ├── index.html
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Dashboard.vue
-│   │   │   ├── UserManagement.vue
-│   │   ├── App.vue
-│   │   └── main.js
-│   ├── package.json
-│   └── README.md
-├── backend/     # Node.js/Python Django App
-│   ├── node_app/
-│   │   ├── server.js
-│   │   ├── package.json
-│   │   └── .env
-│   ├── django_app/
-│   │   ├── manage.py
-│   │   ├── settings.py
-│   │   ├── urls.py
-│   │   └── wsgi.py
-├── database/   # PostgreSQL
-│   └── schema.sql
-└── README.md
-```
+### Overview
+- **Frontend**: Built with React for user interactions.
+- **Admin Panel**: Built with Vue.js for managing the application.
+- **Backend**: Node.js for the API and Django for additional services.
+- **Database**: PostgreSQL for data storage.
+
+### Folder Structure
+- **frontend**: Contains the React application.
+- **admin**: Contains the Vue.js application.
+- **backend-node**: Node.js API services.
+- **backend-django**: Django API services.
+- **database**: Database initialization scripts.
+- **docs**: Documentation on architecture and usage.
